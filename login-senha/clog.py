@@ -1,4 +1,4 @@
-produto = input("Digite o nome do produto: ")
+produt = input("Digite o nome do produto: ")
 estoque = int(input("Digite a quantidade inicial em estoque: "))
 
 controle = input('Deseja registrar uma venda? (s/n): ')
@@ -17,5 +17,5 @@ while controle == 's':
 
 print('\n\nRelatório de Estoque:')
 print('---------------------')
-print(f'Produto: {produto}')
+print(f'Produto: {produt}')
 print(f'Quantidade em Estoque: {estoque}')
